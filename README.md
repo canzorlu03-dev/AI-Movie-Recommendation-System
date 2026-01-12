@@ -1,7 +1,5 @@
 # AI-Movie-Recommendation-System
 
-# AI Movie Recommendation System
-
 ## Overview
 
 This repository contains an AI-powered movie recommendation system developed using Python and machine learning techniques. The project focuses on building an end-to-end recommendation pipeline using real-world public datasets and similarity-based filtering methods.
@@ -39,7 +37,12 @@ This project uses publicly available datasets from The Movie Database (TMDB):
 * tmdb_5000_credits.csv
   Includes detailed cast and crew information for each movie.
 
-The datasets are merged and transformed into a unified feature representation used for generating recommendations.
+Due to GitHub file size limitations, the credits dataset has been split into two parts:
+
+* tmdb_5000_credits_part1.csv
+* tmdb_5000_credits_part2.csv
+
+These files should be concatenated before use in the notebook.
 
 ---
 
@@ -140,5 +143,5 @@ This project is intended for educational and portfolio purposes and uses publicl
 ## Author
 
 Can Zorlu
-GitHub: [https://github.com/canzorlu03-dev](https://github.com/canzorlu03-dev)
+
 LinkedIn: [https://www.linkedin.com/in/can-zorlu-26b115307](https://www.linkedin.com/in/can-zorlu-26b115307)
